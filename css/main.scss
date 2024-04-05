@@ -59,6 +59,11 @@
         align-items: center;
         gap: 0 5px;
         margin: 0 0 4px 0;
+        svg{
+          display: flex;
+          width: 12px;
+          height: 12px;
+        }
       }
       .educ_title,
       .skills_title {
@@ -139,6 +144,9 @@
         span {
           @include RB;
           // margin: 8px 0 4px 0;
+        }
+        a{
+            color: black;
         }
       }
     }
